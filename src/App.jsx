@@ -53,6 +53,7 @@ function App() {
             </a>
           </div>
 
+          {/* GITHUB ONLY */}
           <div className="social-links">
 
             <a
@@ -61,14 +62,6 @@ function App() {
               rel="noopener noreferrer"
             >
               GitHub
-            </a>
-
-            <a
-              href="https://www.linkedin.com/in/komal-teli-147062379/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              LinkedIn
             </a>
 
           </div>
@@ -621,16 +614,6 @@ function App() {
             className="blue-button"
           >
             🐙 GitHub
-          </a>
-
-          {/* LINKEDIN */}
-          <a
-            href="https://www.linkedin.com/in/komal-teli-147062379/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="pink-button"
-          >
-            💼 LinkedIn
           </a>
 
         </div>
