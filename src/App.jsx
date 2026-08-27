@@ -53,7 +53,6 @@ function App() {
             </a>
           </div>
 
-          {/* GITHUB ONLY */}
           <div className="social-links">
 
             <a
@@ -544,7 +543,7 @@ function App() {
 
           </div>
 
-          {/* CERTIFICATE 6 */}
+          {/* CERTIFICATE 6 - AI PROMPTING FOR EVERYONE */}
           <div className="certificate-card">
 
             <div className="certificate-icon blue-text">
@@ -552,19 +551,19 @@ function App() {
             </div>
 
             <h3>
-              Data Structures & Algorithms in Python
+              AI Prompting for Everyone
             </h3>
 
             <p>
-              Python & DSA
+              DeepLearning.AI
             </p>
 
             <p className="certificate-detail">
-              Data Structures & Algorithms
+              AI Prompting & Generative AI
             </p>
 
             <a
-              href="/certificates/dsa-python.pdf"
+              href="/certificates/ai-prompting-for-everyone.png"
               target="_blank"
               rel="noopener noreferrer"
               className="certificate-link"
