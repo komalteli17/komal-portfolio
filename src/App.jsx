@@ -4,7 +4,6 @@ function App() {
   return (
     <div className="portfolio">
 
-      {/* ================= NAVBAR ================= */}
       <nav className="navbar">
         <div className="logo">
           Komal<span>.</span>
@@ -20,22 +19,16 @@ function App() {
         </div>
       </nav>
 
-      {/* ================= HOME ================= */}
       <section id="home" className="home">
-
         <div className="home-content">
 
-          <p className="welcome">
-            WELCOME TO MY PORTFOLIO
-          </p>
+          <p className="welcome">WELCOME TO MY PORTFOLIO</p>
 
           <h1>
             Hi, I'm <span>Komal Teli</span>
           </h1>
 
-          <h2>
-            AI/ML & Python Developer
-          </h2>
+          <h2>AI/ML & Python Developer</h2>
 
           <p className="description">
             BCA Graduate passionate about Artificial Intelligence,
@@ -54,7 +47,6 @@ function App() {
           </div>
 
           <div className="social-links">
-
             <a
               href="https://github.com/komalteli17"
               target="_blank"
@@ -63,13 +55,18 @@ function App() {
               GitHub
             </a>
 
+            <a
+              href="https://www.linkedin.com/in/komal-teli-147062379/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>
           </div>
 
         </div>
 
-        {/* PROFILE PHOTO */}
         <div className="profile-area">
-
           <div className="profile-circle">
             <img
               src="/images/komal-photo.jpeg"
@@ -80,17 +77,12 @@ function App() {
           <div className="profile-tag">
             AI • ML • Python
           </div>
-
         </div>
-
       </section>
 
-      {/* ================= ABOUT ================= */}
       <section id="about" className="about section">
 
-        <p className="section-label">
-          ABOUT ME
-        </p>
+        <p className="section-label">ABOUT ME</p>
 
         <h2 className="section-title">
           I'm Komal, an <span>AI & Python Developer.</span>
@@ -130,15 +122,11 @@ function App() {
           </div>
 
         </div>
-
       </section>
 
-      {/* ================= SKILLS ================= */}
       <section id="skills" className="skills section">
 
-        <p className="section-label">
-          MY SKILLS
-        </p>
+        <p className="section-label">MY SKILLS</p>
 
         <h2 className="section-title">
           Technologies I <span>Work With</span>
@@ -219,15 +207,11 @@ function App() {
           </div>
 
         </div>
-
       </section>
 
-      {/* ================= PROJECTS ================= */}
       <section id="projects" className="projects section">
 
-        <p className="section-label">
-          MY PROJECTS
-        </p>
+        <p className="section-label">MY PROJECTS</p>
 
         <h2 className="section-title">
           Featured <span>Projects</span>
@@ -235,16 +219,10 @@ function App() {
 
         <div className="projects-grid">
 
-          {/* HEARTGUARD AI */}
           <div className="project-card">
+            <div className="project-top pink-bg">❤️</div>
 
-            <div className="project-top pink-bg">
-              ❤️
-            </div>
-
-            <h3>
-              HeartGuard AI
-            </h3>
+            <h3>HeartGuard AI</h3>
 
             <p>
               AI-powered heart disease prediction system that uses
@@ -267,19 +245,12 @@ function App() {
             >
               View Project →
             </a>
-
           </div>
 
-          {/* CAREERPILOT AI */}
           <div className="project-card">
+            <div className="project-top blue-bg">🤖</div>
 
-            <div className="project-top blue-bg">
-              🤖
-            </div>
-
-            <h3>
-              CareerPilot AI
-            </h3>
+            <h3>CareerPilot AI</h3>
 
             <p>
               AI-powered resume analyzer designed to analyze
@@ -301,24 +272,17 @@ function App() {
             >
               View Project →
             </a>
-
           </div>
 
-          {/* LANGUAGE LEARNING */}
           <div className="project-card">
+            <div className="project-top pink-bg">🌐</div>
 
-            <div className="project-top pink-bg">
-              🌐
-            </div>
-
-            <h3>
-              Language Learning
-            </h3>
+            <h3>Language Learning</h3>
 
             <p>
-              Interactive language learning web application
-              designed to make learning simple, engaging and
-              accessible.
+              A language learning project designed to help users
+              improve their language skills through an interactive
+              web experience.
             </p>
 
             <div className="tech-tags">
@@ -335,277 +299,133 @@ function App() {
             >
               View Project →
             </a>
-
-          </div>
-
-          {/* ENGLISH TO MARATHI VIDEO DUBBING */}
-          <div className="project-card">
-
-            <div className="project-top blue-bg">
-              🗣️
-            </div>
-
-            <h3>
-              English to Marathi Video Dubbing
-            </h3>
-
-            <p>
-              AI-enabled educational platform designed to help
-              teachers in rural Maharashtra convert English
-              educational YouTube content into Marathi using
-              AI-powered translation and video dubbing.
-            </p>
-
-            <div className="tech-tags">
-              <span>React.js</span>
-              <span>Tailwind CSS</span>
-              <span>TypeScript</span>
-              <span>Node.js</span>
-              <span>MongoDB</span>
-              <span>Sarvam AI</span>
-            </div>
-
-            <a
-              href="https://github.com/komalteli17/EnglishMarathi"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="project-link"
-            >
-              View Project →
-            </a>
-
           </div>
 
         </div>
-
       </section>
 
-      {/* ================= CERTIFICATES ================= */}
       <section id="certificates" className="certificates section">
 
-        <p className="section-label">
-          CERTIFICATES
-        </p>
+        <p className="section-label">CERTIFICATES</p>
 
         <h2 className="section-title">
-          My <span>Achievements</span>
+          My <span>Certifications</span>
         </h2>
 
-        <div className="certificate-grid">
+        <div className="certificates-grid">
 
-          {/* CERTIFICATE 1 */}
           <div className="certificate-card">
-
-            <div className="certificate-icon pink-text">
-              🏆
-            </div>
-
-            <h3>
-              Generative AI for Software Development
-            </h3>
-
-            <p>
-              DeepLearning.AI Professional Certificate
-            </p>
-
-            <p className="certificate-detail">
-              Generative AI & Software Development
-            </p>
-
-            <a
-              href="/certificates/generative-ai.jpg"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="certificate-link"
-            >
-              View Certificate →
-            </a>
-
-          </div>
-
-          {/* CERTIFICATE 2 */}
-          <div className="certificate-card">
-
-            <div className="certificate-icon blue-text">
-              🏆
-            </div>
-
-            <h3>
-              Introduction to Generative AI for Software Development
-            </h3>
-
-            <p>
-              DeepLearning.AI
-            </p>
-
-            <p className="certificate-detail">
-              Generative AI & Software Development
-            </p>
-
-            <a
-              href="/certificates/introduction-generative-ai.jpg"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="certificate-link"
-            >
-              View Certificate →
-            </a>
-
-          </div>
-
-          {/* CERTIFICATE 3 */}
-          <div className="certificate-card">
-
-            <div className="certificate-icon pink-text">
-              🏆
-            </div>
-
-            <h3>
-              Team Software Engineering with AI
-            </h3>
-
-            <p>
-              DeepLearning.AI
-            </p>
-
-            <p className="certificate-detail">
-              AI-Assisted Software Engineering
-            </p>
-
-            <a
-              href="/certificates/team-software-engineering-ai.jpg"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="certificate-link"
-            >
-              View Certificate →
-            </a>
-
-          </div>
-
-          {/* CERTIFICATE 4 */}
-          <div className="certificate-card">
-
-            <div className="certificate-icon blue-text">
-              🏆
-            </div>
-
-            <h3>
-              AI-Powered Software and System Design
-            </h3>
-
-            <p>
-              DeepLearning.AI
-            </p>
-
-            <p className="certificate-detail">
-              AI-Powered Software & System Design
-            </p>
+            <h3>AI-Powered Software & System Design</h3>
+            <p>Generative AI for Software Development</p>
 
             <a
               href="/certificates/ai-powered-software-design.jpg"
               target="_blank"
               rel="noopener noreferrer"
-              className="certificate-link"
+              className="project-link"
             >
               View Certificate →
             </a>
-
           </div>
 
-          {/* CERTIFICATE 5 */}
           <div className="certificate-card">
-
-            <div className="certificate-icon pink-text">
-              🏆
-            </div>
-
-            <h3>
-              Prompt Engineering with ChatGPT
-            </h3>
-
-            <p>
-              Prompt Engineering
-            </p>
-
-            <p className="certificate-detail">
-              Prompt Engineering & Generative AI
-            </p>
-
-            <a
-              href="/certificates/prompt-engineering-chatgpt.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="certificate-link"
-            >
-              View Certificate →
-            </a>
-
-          </div>
-
-          {/* CERTIFICATE 6 - AI PROMPTING FOR EVERYONE */}
-          <div className="certificate-card">
-
-            <div className="certificate-icon blue-text">
-              🏆
-            </div>
-
-            <h3>
-              AI Prompting for Everyone
-            </h3>
-
-            <p>
-              DeepLearning.AI
-            </p>
-
-            <p className="certificate-detail">
-              AI Prompting & Generative AI
-            </p>
+            <h3>AI Prompting for Everyone</h3>
+            <p>DeepLearning.AI</p>
 
             <a
               href="/certificates/ai-prompting-for-everyone.png"
               target="_blank"
               rel="noopener noreferrer"
-              className="certificate-link"
+              className="project-link"
             >
               View Certificate →
             </a>
+          </div>
 
+          <div className="certificate-card">
+            <h3>Generative AI</h3>
+            <p>Generative AI</p>
+
+            <a
+              href="/certificates/generative-ai.jpg"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-link"
+            >
+              View Certificate →
+            </a>
+          </div>
+
+          <div className="certificate-card">
+            <h3>Introduction to Generative AI</h3>
+            <p>Generative AI Fundamentals</p>
+
+            <a
+              href="/certificates/introduction-generative-ai.jpg"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-link"
+            >
+              View Certificate →
+            </a>
+          </div>
+
+          <div className="certificate-card">
+            <h3>Team Software Engineering with AI</h3>
+            <p>Generative AI for Software Development</p>
+
+            <a
+              href="/certificates/team-software-engineering-ai.jpg"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-link"
+            >
+              View Certificate →
+            </a>
+          </div>
+
+          <div className="certificate-card">
+            <h3>TensorFlow Developer Professional Certificate</h3>
+
+            <p>
+              DeepLearning.AI
+            </p>
+
+            <a
+              href="/certificates/tensorflow-developer-professional-certificate.png"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-link"
+            >
+              View Certificate →
+            </a>
           </div>
 
         </div>
-
       </section>
 
-      {/* ================= CONTACT ================= */}
-      <section id="contact" className="contact">
+      <section id="contact" className="contact section">
 
-        <p className="section-label">
-          GET IN TOUCH
-        </p>
+        <p className="section-label">CONTACT ME</p>
 
-        <h2>
-          Let's build something <span>amazing.</span>
+        <h2 className="section-title">
+          Let's <span>Connect</span>
         </h2>
 
-        <p>
-          I'm open to opportunities, collaborations and
-          interesting software projects.
+        <p className="contact-text">
+          Feel free to connect with me for opportunities,
+          collaborations or interesting projects.
         </p>
 
         <div className="contact-buttons">
 
-          {/* GMAIL DIRECT COMPOSE */}
           <a
-            href="https://mail.google.com/mail/?view=cm&fs=1&to=komalteli496@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="mailto:komalteli17@gmail.com"
             className="pink-button"
           >
-            📧 Email Me
+            📧 Email
           </a>
 
-          {/* GITHUB */}
           <a
             href="https://github.com/komalteli17"
             target="_blank"
@@ -615,21 +435,20 @@ function App() {
             🐙 GitHub
           </a>
 
-        </div>
+          <a
+            href="https://www.linkedin.com/in/komal-teli-147062379/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="pink-button"
+          >
+            💼 LinkedIn
+          </a>
 
+        </div>
       </section>
 
-      {/* ================= FOOTER ================= */}
-      <footer>
-
-        <div className="footer-logo">
-          Komal<span>.</span>
-        </div>
-
-        <p>
-          © 2026 Komal Teli. All Rights Reserved.
-        </p>
-
+      <footer className="footer">
+        <p>© 2026 Komal Teli. All Rights Reserved.</p>
       </footer>
 
     </div>
