@@ -28,7 +28,7 @@ function App() {
             Hi, I'm <span>Komal Teli</span>
           </h1>
 
-          <h2>AI/ML & Python Developer</h2>
+          <h2>AI, Python & Next.js Developer</h2>
 
           <p className="description">
             BCA Graduate passionate about Artificial Intelligence,
@@ -85,7 +85,7 @@ function App() {
         <p className="section-label">ABOUT ME</p>
 
         <h2 className="section-title">
-          I'm Komal, an <span>AI & Python Developer.</span>
+          I'm Komal, an <span>AI, Python & Next.js Developer.</span>
         </h2>
 
         <p className="about-text">
@@ -316,7 +316,7 @@ function App() {
 
           <div className="certificate-card">
             <h3>AI-Powered Software & System Design</h3>
-            <p>Generative AI for Software Development</p>
+            <p>DeepLearning.AI</p>
 
             <a
               href="/certificates/ai-powered-software-design.jpg"
@@ -344,7 +344,7 @@ function App() {
 
           <div className="certificate-card">
             <h3>Generative AI</h3>
-            <p>Generative AI</p>
+            <p>DeepLearning.AI</p>
 
             <a
               href="/certificates/generative-ai.jpg"
@@ -358,7 +358,7 @@ function App() {
 
           <div className="certificate-card">
             <h3>Introduction to Generative AI</h3>
-            <p>Generative AI Fundamentals</p>
+            <p>DeepLearning.AI</p>
 
             <a
               href="/certificates/introduction-generative-ai.jpg"
@@ -372,7 +372,7 @@ function App() {
 
           <div className="certificate-card">
             <h3>Team Software Engineering with AI</h3>
-            <p>Generative AI for Software Development</p>
+            <p>DeepLearning.AI</p>
 
             <a
               href="/certificates/team-software-engineering-ai.jpg"
@@ -386,10 +386,7 @@ function App() {
 
           <div className="certificate-card">
             <h3>TensorFlow Developer Professional Certificate</h3>
-
-            <p>
-              DeepLearning.AI
-            </p>
+            <p>DeepLearning.AI</p>
 
             <a
               href="/certificates/tensorflow-developer-professional-certificate.png"
